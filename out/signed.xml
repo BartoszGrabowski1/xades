@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ns3:InitSessionSignedRequest xmlns:ns3="http://ksef.mf.gov.pl/schema/gtw/svc/online/auth/request/2021/10/01/0001" xmlns="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001" xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+  <ns3:Context>
+    <Challenge>20240123-CR-44EC8F4F09-F69EB3B3DE-77</Challenge>
+    <Identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:SubjectIdentifierByCompanyType">
+      <ns2:Identifier>8363695362</ns2:Identifier>
+    </Identifier>
+    <DocumentType>
+      <ns2:Service>KSeF</ns2:Service>
+      <ns2:FormCode>
+        <ns2:SystemCode>FA (1)</ns2:SystemCode>
+        <ns2:SchemaVersion>1-0E</ns2:SchemaVersion>
+        <ns2:TargetNamespace>http://crd.gov.pl/wzor/2021/11/29/11089/</ns2:TargetNamespace>
+        <ns2:Value>FA</ns2:Value>
+      </ns2:FormCode>
+    </DocumentType>
+    <Type>SerialNumber</Type>
+  </ns3:Context>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>MD0R12QLJU9A1/ZX3UhRMaIvrKI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue">PfMGAiGTc7IQriFNm1xy5eVMVuZF4La90KwADG3fxlXuOcCx5cnC69dKpR9vROds0kDghpJvI2cK&#13;
+x4I+5sM5DXZhL0u5RaC3R1G+YPpjymPALxhExDTXnGMecBKCLGAtKvnz2F51/4uwHMlXm4s3vz7A&#13;
+UBxfwacTlC324Jb1/tOcMqTGEsMGF4n74O+2kO2Amk1jn/9Uc883smBs/MFI/cqB79EgWmeVdpBK&#13;
+8WyGiGW4W/mi9m6HesdR0LnYCLDfK0ltAb/awPoyySg+vAMlXCYY+YYvWPGO0T7LwI8R0F9dQTSk&#13;
+2B6G+E4L97aOXbPGtxxzj+BHjxCyIK/QafgYkg==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>zVenVgjsrjzdccSHKaULMxeLoZq3FiT5IFuuSb1YPaj4nJ6Bb5xxlZ36sf75w4H9WxFfIUMIZJeW&#13;
+EmiABjV45QCln9SVFaHe0uDRRyaNWXvq3nGs340NzsWlkQH52/uBfFGX2GhacAyhPaYKZQFQQ5SI&#13;
+32DGLyuB4zj5Y+Za/yrN3siBTZMAWIBX2F1bIMKQcPQazQR7kFLI2Vhu2jpnNcxmxmiGNAg3ge2M&#13;
+GArVrW9UW4AAVX0I3dVh4cLTizBmtFjhURJG7OhfiuZQHSVieSzVMzhLHYEf2PUxYk5o/VZDN+SG&#13;
+Z2kN1Xm8G4h0SzGZ7FZ6ynXWJjQDq2u2tx659Q==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIEzzCCA7egAwIBAgIUWe0T+uAHPakQtfTK9Flxmt9LvQkwDQYJKoZIhvcNAQELBQAwgbYxCzAJ&#13;
+BgNVBAYTAlBMMRQwEgYDVQQIDAtNYXpvd2llY2tpZTEPMA0GA1UEBwwGV2Fyc2F3MRAwDgYDVQQK&#13;
+DAdUZXN0T3JnMREwDwYDVQQLDAhUZXN0VW5pdDEaMBgGA1UEAwwRQmFydG9zeiBHcmFib3dza2kx&#13;
+GTAXBgNVBAUTEFBOT1BMMjMxMTMxMjUxNTAxEjAQBgNVBAQMCUdyYWJvd3NraTEQMA4GA1UEKgwH&#13;
+QmFydG9zejAeFw0yNDAxMDkxOTE1MThaFw0yNTAxMDgxOTE1MThaMIG2MQswCQYDVQQGEwJQTDEU&#13;
+MBIGA1UECAwLTWF6b3dpZWNraWUxDzANBgNVBAcMBldhcnNhdzEQMA4GA1UECgwHVGVzdE9yZzER&#13;
+MA8GA1UECwwIVGVzdFVuaXQxGjAYBgNVBAMMEUJhcnRvc3ogR3JhYm93c2tpMRkwFwYDVQQFExBQ&#13;
+Tk9QTDIzMTEzMTI1MTUwMRIwEAYDVQQEDAlHcmFib3dza2kxEDAOBgNVBCoMB0JhcnRvc3owggEi&#13;
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNV6dWCOyuPN1xxIcppQszF4uhmrcWJPkgW65J&#13;
+vVg9qPicnoFvnHGVnfqx/vnDgf1bEV8hQwhkl5YSaIAGNXjlAKWf1JUVod7S4NFHJo1Ze+recazf&#13;
+jQ3OxaWRAfnb+4F8UZfYaFpwDKE9pgplAVBDlIjfYMYvK4HjOPlj5lr/Ks3eyIFNkwBYgFfYXVsg&#13;
+wpBw9BrNBHuQUsjZWG7aOmc1zGbGaIY0CDeB7YwYCtWtb1RbgABVfQjd1WHhwtOLMGa0WOFREkbs&#13;
+6F+K5lAdJWJ5LNUzOEsdgR/Y9TFiTmj9VkM35IZnaQ3VebwbiHRLMZnsVnrKddYmNAOra7a3Hrn1&#13;
+AgMBAAGjgdIwgc8wCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBaAwOgYJYIZIAYb4QgENBC0W&#13;
+K09wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlIGZvciBLU2VGIFRlc3QwHQYDVR0OBBYEFI66&#13;
+1hEr7aNAHCMPm6ieN1kRdm7JMAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDBAYIKwYB&#13;
+BQUHAwIwKAYDVR0RBCEwH4EdYmFydG9zei5ncmFib3dza2lAZXhhbXBsZS5jb20wDQYJKoZIhvcN&#13;
+AQELBQADggEBADLf9fYEKlMZgx1Rwas7AppG19n/JsFX+UfHVkDylkVuLM3dgfdslKjwxZJv1neD&#13;
+FTtOrESAANlxdGWFf5EqVXR35pLxosgE15DC6cmSvAQEiDRkZ0IbR/60uRkU/xEOJVzC66BwZieY&#13;
+RJe7Ug6LqBYKTUtBSpHSGH5uhM3XEpVM56ZLrI7/joqRkOvEwyS0fU8P7DPo6H0uicpvqOhDYDiX&#13;
+jfgXDF+44zxfU8db2Yo0EEEFzHHeWYK+CqwcR0EmmwEZWQ8sWp2D4/MDI9pLy4Kd3KORgGUP6o48&#13;
+NN0bVh76csAgL1T+qkKBzaUnuKj3QZTJDefaKj/5+H7iWzYXOWM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature" id="QualifyingProperties"><xades:SignedProperties id="SignedProperties"><xades:SignedSignatureProperties id="SignedSignatureProperties"><xades:SigningTime>2024-02-14T13:47:32</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest/><xades:IssuerSerial><X509IssuerName>GIVENNAME=Bartosz, SURNAME=Grabowski, SERIALNUMBER=PNOPL23113125150, CN=Bartosz Grabowski, OU=TestUnit, O=TestOrg, L=Warsaw, ST=Mazowieckie, C=PL</X509IssuerName><X509SerialNumber>513387195717182576776143840770564866551313054985</X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties Id="SignedDataObjectProperties"><xades:DataObjectFormat ObjectReference="#Data-Reference"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat><xades:CommitmentTypeIndication><xades:CommitmentTypeId><xades:Identifier>http://uri.etsi.org/01903/v1.2.2#ProofOfApproval</xades:Identifier></xades:CommitmentTypeId><xades:AllSignedDataObjects/></xades:CommitmentTypeIndication></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:InitSessionSignedRequest>
